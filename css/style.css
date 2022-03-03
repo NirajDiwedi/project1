@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+
+*
+
+{
+    margin : 0;
+    padding : 0;
+    box-sizing :border-box;
+}
+body
+{
+background :url(../img/bg.jpg) #EDEDEE;
+background-repeat: repeat-x;
+font-family: 'Rubik', sans-serif;
+}
+.container
+{
+    width:1000px;
+    margin:auto;
+}
+header
+{
+    background:url(../img/top.jpg) ;
+    background-repeat: no-repeat;
+}
+.l
+{
+    float:left ;
+}
+.r
+{
+    float:right ;
+}
+.clear
+{
+    clear:both;
+}
+.Phone 
+{
+    color:#fff; padding:20 px; text-align: right  ;
+    padding-bottom: 10px;
+}
+.nav ul
+{
+    list-style-type: none;
+}
+nav ul li
+{
+    display:inline;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color:#fff;
+    background:brown;
+    padding:8px 8px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+nav ul li a:hover
+{
+ background-color: orangered;
+}
+.w-100
+{
+    width: 100%;
+    display: block ;
+    
+
+   
+}
+.banner 
+{
+    border: 5px solid #000;
+    margin-top: 10px;
+
+
+
+}
+.content
+{
+    margin-top: 50px;
+     font-size:13px;
+     color:rgb(31, 27, 27);
+}
+main
+{
+    width:73%;
+    padding:10px;
+}
+
+.box 
+{
+    background: #e2e0d4;
+    border:1px solid brown; padding :15px;
+}
+.content h3
+{
+    padding: 15px 0;
+    color:brown;
+}
+.pt-100
+{
+    padding-top: 20px;
+}
+aside
+{
+    width:25%;
+
+}
+.mid
+{
+    margin: 0px 20px;
+}
+footer
+{
+    background:url(../img/footer_bg.gif);
+    background-repeat: repeat-x top;
+    color:#fff;
+    text-align:right;
+    padding:6px;
+    font-size: 13px;
+    
+}
+@media(max-width:420px)
+{
+    .container{width:100%;}
+     .Logo,.Phone,nav ul li a ,.box l,.box r,.pt-100
+     {float: none; text-align: center;}
+}
